@@ -1,0 +1,547 @@
+html{
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #eee;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #090a20;
+  color: #eee;
+}
+
+ul{
+  padding: 0;
+}
+
+
+/* header */
+
+header{
+  width: 100%;
+}
+
+#main-bg{
+  background-image: url("images/1947484.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+}
+
+
+.navbar{
+  z-index: 2;
+  background-color: #090a20;
+  height: 75px;
+}
+
+.nav-links{
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 0.4rem;
+  margin-left: 2.5rem;
+}
+
+.nav-links:hover{
+  font-size: 2.1rem;
+  color: #eee;
+}
+
+
+a{
+  color: #eee;
+  text-decoration: none;
+  
+}
+
+.ham{
+  display: none;
+}
+
+.nav-toggle{
+  display: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+.logo{
+  position: fixed;
+  z-index: 3;
+  aspect-ratio: 1;
+  width: 6em;
+  margin: .75em 0;
+}
+/* name */
+
+.landing-text {
+  padding: 10rem 0;
+}
+
+.landing-text h1 {
+  font-size: 8rem;
+  font-weight: 500;
+  font-family: "Kaushan Script", sans-serif;
+  background: linear-gradient(to top,#f1e8ef 25%, #dedef6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1rem;
+  user-select: none;
+  line-height: 1.1;
+}
+
+.landing-text h6 {
+  font-family: "Open Sans", "sans-serif";
+  color: #eee;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.landingbtn {
+  margin: 0 auto;
+  background-color: rgb(131, 108, 180);
+  height: 6rem;
+  width: 20rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  border-radius: 1.5rem;
+  }
+
+.landingbtn p {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 2rem;
+  margin-top: .5em;
+}
+
+/* underline */
+
+/* about*/
+
+section{
+  padding: 14em 0;
+}
+
+.about-head{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  line-height: 0.2;
+}
+
+.about-head h1{
+  font-size: 7rem;
+  font-weight:bold;
+  color: rgb(58 92 93 / 64%);
+}
+
+.about-head h6{
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: -5rem;
+}
+
+section p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  width: auto;
+  line-height: 1.5;
+  word-spacing: 3px;
+}
+
+.social-media{
+  margin-top: 1rem;
+}
+
+.social-media i{
+  padding: 1rem;
+  font-size: 5rem;
+  transition: all 300ms;
+
+}
+
+.social-media i:hover{
+  transform: scale(1.4);
+}
+
+.fa-whatsapp:hover{
+  color: green;
+}
+
+.fa-instagram:hover{
+  color: #d21762;
+}
+
+.fa-linkedin-in:hover{
+  color: #4267b2;
+}
+
+.fa-github:hover{
+  color: rgb(81, 79, 79);
+}
+
+.social-media .nav-list{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-details li{
+  margin: 0 1rem;
+}
+
+.about img{
+  width: 100%;
+}
+
+
+/* underline */
+
+/* services */
+
+.services{
+  background: url("images/services.jpg") no-repeat 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-heading{
+  text-align: center;
+  margin-bottom: -5rem;
+}
+
+.section-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  color: rgb(31, 130, 134);
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.section-heading h6 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+
+.inter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.icon-container {
+  width: 9rem;
+  height: 9rem;
+  border: 3px solid #6c4a88;
+  background-color: #a8a5a81a;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+.icon-container i {
+  font-size: 4rem;
+  color: white;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+
+.inter h1{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.my-inter p{
+  font-size: 1.6rem;
+}
+/* underline */
+
+/* skills */
+
+
+.skillicons {
+  font-size: 4rem;
+}
+
+.skillicon-box {
+  text-align: center;
+}
+
+/* underline */
+/* projects */
+
+
+.portfolio-description h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-family: "Alata", sans-serif;
+  color: rgb(153, 133, 173);
+}
+
+.portfolio-description .cta{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #eee;
+  transition: all 150ms;
+}
+/* underline */
+
+/* loader */
+
+.loader {
+  color: #03e9f4;
+  letter-spacing: 5px;
+  font-size: 2.7em;
+}
+
+.loader::after {
+  content: '\2026';
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  animation: dots steps(4, end) 2s infinite;
+  width: 0px;
+}
+@keyframes dots {
+  to {
+    width: 1em;
+  }
+}
+
+
+/* underline */
+
+/* contact */
+
+#email {
+  color: rgb(142, 142, 204);
+}
+
+#email:hover{
+  color: rgb(147, 102, 179);
+}
+
+.container-contact{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.wrap-contact{
+  width: 550px;
+  background: transparent;
+  padding: 0px;
+}
+
+.contact-form{
+  width: 100%;
+}
+
+.wrap-input{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 15px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.input{
+  height: 60px;
+  padding: 0 35px 0 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 15px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 18px;
+  color: #d21762;
+  line-height: 1.2;
+}
+
+textarea.input{
+  min-height: 170px;
+  padding: 20px 35px 0 35px;
+}
+
+.container-contact-form-btn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-form-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 15px;
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 800;
+  letter-spacing: .1 rem;
+  font-size: 16px;
+  color: white;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  background-color: #4267b2;
+}
+
+/* underline */
+
+/* footer */
+
+.foot{
+  width: 100%;
+  text-align: center;
+  background-color: #a13a3aad;
+  padding: .1rem 0;
+  position: relative;
+}
+
+.adarsh{
+  float: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.foot p{
+  font-size: 1.5rem;
+}
+
+
+li{
+  margin: 1.2rem 0;
+}
+
+.call a:hover{
+  text-decoration: none;
+  color: #eee;
+}
+
+.call i:hover{
+  transform: scale(1.2);
+}
+
+.location a:hover{
+  text-decoration: none;
+  color: #eee;
+}
+
+.location i:hover{
+  transform: scale(1.2);
+}
+
+.location{
+  margin-left: 3rem;
+}
+
+.call i, .location i{
+  transition: transform .5s ease-in-out;
+}
+
+.footer i{
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.adarsh p {
+  margin-bottom: 0;
+}
+
+/* underline */
+
+@media screen and (max-width: 768px) {
+  .primary-nav{
+    position: fixed;
+    inset: 0 0 0 30%;
+    background:hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;  
+    text-align: left;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+  }
+
+  .primary-nav[data-visible="true"]{
+    transform: translateX(0%);
+  }
+
+  .primary-nav li{
+    margin-top: 3rem;
+  }
+
+  .nav-links{
+    font-size: 3em;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    background-image: url("images/ham.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 3.5em;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+    position: fixed;
+  }
+
+  .nav-toggle[aria-expanded="true"]{
+    background-image: url(images/closed.png);
+  }
+
+  .landing-text h6{
+    font-size: 1.8rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .landing-text h1{
+    font-size: 7rem
+  }
+  section p{
+    font-size: 1.5rem;
+  }  
+}
+
+
+@media screen and (max-width:350px) {
+  .landing-text h1{
+    font-size: 5rem;
+  }
+}
